@@ -35,6 +35,21 @@
 		<version>1.0.0</version>
 		</dependency>
 		
+			 <!-- Agregado : Dependencia para poder suscribir el servicio en Eureka -->
+		<dependency>
+    		<groupId>org.springframework.cloud</groupId>
+    		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+		</dependency>
+
+	
+		<!-- Agregado: Depdencia del actuador  -->
+		<dependency>
+		    <groupId>org.springframework.boot</groupId>
+		    <artifactId>spring-boot-starter-actuator</artifactId>
+		</dependency>
+		
+		
+		
 	
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
