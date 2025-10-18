@@ -10,9 +10,9 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 
-@FeignClient(name = "producto-service", url = "http://localhost:8084")
+@FeignClient(name = "producto-service", url = "http://localhost:8081")
 public interface ProductoClient {
 
-    @GetMapping("/productos/bajo-stock")
+    @GetMapping("producto-service/productos/bajo-stock")
     List<Producto> getProductosBajoStock();
 }

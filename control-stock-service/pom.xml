@@ -73,10 +73,10 @@
 	    </dependency>
 	    
 	    
-	    		<!-- Libreria para usar rabbit-service -->
+	    		<!-- Libreria para usar rabbit-service-producer -->
 		<dependency>
 		<groupId>org.cibertec</groupId>
-<artifactId>rabbit-service-tech</artifactId>
+<artifactId>rabbit_producer_service_admin</artifactId>
 		<version>1.0.0</version>
 		</dependency>
 		
@@ -94,7 +94,13 @@
 		    <artifactId>spring-boot-starter-actuator</artifactId>
 		</dependency>
 		
-		
+				<!-- Dependencia de reintentos y circuit Breaker -->
+
+	<dependency>
+    <groupId>io.github.resilience4j</groupId>
+    <artifactId>resilience4j-spring-boot3</artifactId>
+	</dependency>
+
 		
 
 		

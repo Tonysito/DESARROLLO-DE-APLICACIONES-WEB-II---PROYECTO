@@ -1,6 +1,5 @@
 package org.cibertec.service;
 
-
 import org.cibertec.entity.auditoria.Log;
 import org.springframework.amqp.rabbit.core.RabbitTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -26,7 +25,6 @@ public class MessageProducerService {
 
 	public void sendMessage(Log log) {
 		try {
-
 			
 			 log.setLogId(logCounter++);
 			ObjectMapper mapper = new ObjectMapper();

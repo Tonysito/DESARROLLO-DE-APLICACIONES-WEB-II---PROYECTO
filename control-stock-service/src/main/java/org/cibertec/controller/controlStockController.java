@@ -4,6 +4,7 @@ package org.cibertec.controller;
 
 import java.util.List;
 
+import org.cibertec.entity.Producto;
 import org.cibertec.entity.auditoria.ProductoBajoStock;
 
 import org.cibertec.service.controlStockService;
@@ -30,4 +31,12 @@ public class controlStockController {
     public List<ProductoBajoStock> listarBajoStock() {
         return service.listaBajoStock();
     }
+    
+ // Endpoint para listar todos los productos bajos en stock
+    @GetMapping("/listarFeign")
+    public List<Producto> listarProductosFeign() {
+        return service.productosBajosClient();
+    }
+    
+    
 }
