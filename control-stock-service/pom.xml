@@ -30,6 +30,14 @@
 		<java.version>17</java.version>
 		<spring-cloud.version>2025.0.0</spring-cloud.version>
 	</properties>
+		<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+
+
 	<dependencies>
 	
 	<dependency>
@@ -37,6 +45,12 @@
     <artifactId>spring-boot-starter-web</artifactId>
 </dependency>
 
+<!-- Entidades -->
+<dependency>
+	    <groupId>com.github.Tonysito</groupId>
+	    <artifactId>common-service</artifactId>
+	    <version>1.0.4</version>
+	</dependency>
 
 		<!-- Spring Cloud openFeign-->
 		<dependency>
@@ -59,12 +73,7 @@
 		</dependency>
 		
 
-	<!-- Agregar el common-admin-service -->
-		<dependency>
-		<groupId>org.cibertec</groupId>
-		<artifactId>common-admin-service</artifactId>
-		<version>1.0.0</version>
-		</dependency>
+	
 		
 			<!-- Dependencia para usar el config-server-tech -->
 		<dependency>

@@ -18,6 +18,14 @@
 		<!-- Version de SpringCloud -->
 	<spring-cloud.version> 2024.0.0</spring-cloud.version>
 	</properties>
+	
+			<repositories>
+    <repository>
+        <id>jitpack.io</id>
+        <url>https://jitpack.io</url>
+    </repository>
+</repositories>
+	
 	<dependencies>
 	
 	<!-- Dependencia para usar el spring-cloud -->
@@ -27,12 +35,12 @@
 	    </dependency>
 	
 	
-		<!-- Agregar el common-admin-service -->
-		<dependency>
-		<groupId>org.cibertec</groupId>
-		<artifactId>common-admin-service</artifactId>
-		<version>1.0.0</version>
-		</dependency>
+		<!-- Entidades -->
+<dependency>
+	    <groupId>com.github.Tonysito</groupId>
+	    <artifactId>common-service</artifactId>
+	    <version>1.0.4</version>
+	</dependency>
 		
 			 <!-- Agregado : Dependencia para poder suscribir el servicio en Eureka -->
 		<dependency>
