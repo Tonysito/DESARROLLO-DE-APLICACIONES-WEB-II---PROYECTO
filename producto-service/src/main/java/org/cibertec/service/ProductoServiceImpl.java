@@ -23,8 +23,8 @@ public class ProductoServiceImpl implements ProductoService {
     @Autowired
     private ProductoRepository productoRepository;
 
-    @Autowired
-    private MessageProducerService messageProducerService;
+ //   @Autowired
+  //  private MessageProducerService messageProducerService;
 
     @Autowired
     private LogRepository logRepository;
@@ -181,7 +181,7 @@ public class ProductoServiceImpl implements ProductoService {
     @Retry(name = "adminCB")
     public void sendLogSafely(Log log) {
         logRepository.save(log);
-        messageProducerService.sendMessage(log);
+    //    messageProducerService.sendMessage(log);
     }
 
     public void fallbackSendLog(Log log, Throwable ex) {
