@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 
 
-@FeignClient(name = "producto-service", url = "http://localhost:8081")
+@FeignClient(name = "producto-service", url = "https://producto-service-production.up.railway.app/productos/bajo-stock")
 public interface ProductoClient {
 
     @GetMapping("producto-service/productos/bajo-stock")
