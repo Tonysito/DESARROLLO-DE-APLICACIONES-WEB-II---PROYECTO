@@ -82,13 +82,7 @@
 	    </dependency>
 	    
 	    
-	    		<!-- Libreria para usar rabbit-service-producer -->
-		<dependency>
-		<groupId>org.cibertec</groupId>
-<artifactId>rabbit_producer_service_admin</artifactId>
-		<version>1.0.0</version>
-		</dependency>
-		
+
 		
 			 <!-- Agregado : Dependencia para poder suscribir el servicio en Eureka -->
 		<dependency>
