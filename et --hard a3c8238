@@ -1,0 +1,27 @@
+[33m897f882[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mramaDuane[m[33m, [m[1;31morigin/ramaDuane[m[33m)[m Subiendo oauth2-server
+[33ma3c8238[m[33m ([m[1;31morigin/ProyectoConDespliegue[m[33m)[m Merge pull request #1 from Tonysito/MiguelTFD-patch-1
+[33m12bf767[m[33m ([m[1;31morigin/MiguelTFD-patch-1[m[33m)[m Remove unnecessary blank lines in CategoriaService
+[33m67e6e1f[m[33m ([m[1;31morigin/miguel-dockerizacion[m[33m)[m WIP:  Avance de dockerizacion de microservicios. [Fallo en control-stock-service]
+[33m99bf1b4[m feat: Se agregan los dockerfiles
+[33m98cd95b[m Actualizando Stock de Producto Client
+[33m4884622[m "Agregando link de producto desplegado en railway"
+[33ma9041d1[m Desplegando Control de Stock
+[33m5d32c0d[m Deplegando rabbit consumidor
+[33m0a9d681[m Desplegando rabbit en railway
+[33m29c372f[m Actualizando
+[33m588402c[m Quitando enviar logs a rabbit
+[33mfa6a9bc[m Modificando properties
+[33m1c5d752[m Agregando common-service para despliegue
+[33ma0b2009[m Realizando pruebas con railway en productos
+[33m9306399[m Probando despliegue de productos
+[33mc195b1a[m Prueba de desplegado categoriaservice en railway
+[33mf012ebc[m Consumiendo servicio desplegado den RailWay
+[33m36b9ca6[m "Creando common-service tag, añadiendo libreria de jitpack.io "
+[33m6f04518[m Probando despliegue
+[33ma70fb02[m Probando despliegue
+[33m6334130[m[33m ([m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m Añadiendo Resiliencia de Java y Finalizando RabbitMQ
+[33me0d8715[m actualizand proyecto
+[33m5db0ac5[m Modificando nombres
+[33mbb25f80[m Actualizando proyecto
+[33mb05a190[m[33m ([m[1;31morigin/RamaPruebas[m[33m, [m[1;31morigin/RamaDeTony[m[33m)[m Agregando avances de Sandro
+[33m6086eca[m actualizando rama master
